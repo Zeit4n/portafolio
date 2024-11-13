@@ -1,0 +1,10 @@
+.presentacion {
+    background-color: rgb(221, 255, 28);
+    border-radius: 5px;
+}
+
+.imagen_presentacion {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}

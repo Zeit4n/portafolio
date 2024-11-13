@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ines Perado">
+    <meta name="description" content="HTML,CSS,Bootstrap,Django,Python">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- font aweomse -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mi portafolio</title>
+</head>
+<header>    
+    <nav class="navbar navbar-expand-lg navbar-light nvb bg-dark py-3">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Añadir d-flex a la clase ul para que Flexbox controle el layout -->
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-3">
+                <a class="nav-link active text-white" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active text-white" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active text-white" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active text-white" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>      
+</header>
+<section class="my-5 container presentacion" id="inicio">
+    <div class="row container py-4">
+        <img class="col-12 col-md-5 rounded-circle imagen_presentacion" src="assets/img/foto_portafolio.jpeg" alt="Mi imagen">
+        <div class="col-12 col-md-7">
+            <h1 class="my-3 fs-1 fw-bold">Sebastián Tancara</h1>
+            <p>Soy estudiante de Ingeniería Informática y me encuentro explorando las distintas tecnologías y lenguajes de programación del desarrollo web.<br>
+                Los lenguajes de programación y frameworks que he utilizado son: </p>                
+            <div class="container-fluid row">
+                <img class="col-3" src="assets/img/Python-logo-notext.svg.png" alt="python">
+                <img class="col-3" src="assets/img/HTML5_logo_and_wordmark.svg.png" alt="html">
+                <img class="col-3" src="assets/img/logotipo_css-min.png" alt="css">
+                <img class="col-3" src="assets/img/Unofficial_JavaScript_logo_2.svg.png" alt="js">
+            </div>
+            <div class="container-fluid row">
+                <img class="col-4" src="assets/img/Bootstrap_logo.svg.png" alt="bootstrap" style="height: 125px;">
+                <img class="col-4" src="assets/img/0_eFomJUFua8tuqe8g.png" alt="jquery">
+                <img class="col-4" src="assets/img/django-logo-icon.webp" alt="django">
+            </div>                
+        </div>
+    </div>
+</section>
+<section class="container" id="experiencia">
+  <h1 class="fw-bold text-center">Mi experiencia</h1>
+  <hr style="border-top: 2px solid black;">
+  <ul>
+    <li>
+      He desarrollado landing pages con elementos de bootstrap y jquery.
+    </li>
+    <li>
+      He trabajado con bases de datos relacionales implementadas en el motor de base de datos PostgreSQL. Específicamente en consultas SQL que extraen datos de tablas de datos y creación de roles y otorgar privilegios.
+    </li>
+    <li>
+      He desarrollado pequeños proyectos en django, manejando el backend de sitios web con PostgreSQLy sqlite. Manejo de operaciones CRUD con formularios estilizados con bootstrap y diseños responsivos.
+    </li>
+  </ul>
+
+</section>
+
+
+<section class="container text-center" id="proyectos">
+    <h1 class="fw-bold">Mis proyectos</h1>
+    <hr style="border-top: 2px solid black;">
+    <div class="row">
+        <div class="col-12 col-md-4 card m-4 border-dark" style="width: 20rem;">
+            <img src="assets/img/foto_viajes_chile.png" class="card-img-top h-50 pt-3">
+            <div class="card-body">
+                <h5 class="card-title">Viajes Chile</h5>
+                <p class="card-text small">Landing page de una empresa turística. Cuenta con cards, un carrusel y diferentes elementos de bootstrap</p>
+                <div class="row pb-4">
+                  <a href="https://zeit4n.github.io/Viajes-Chile/">
+                    <p class="fw-bold">Ver el proyecto</p>
+                  </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 card m-4 border-dark" style="width: 20rem;">
+          <img src="assets/img/cuppon.png" class="card-img-top h-50 pt-3">
+          <div class="card-body">
+              <h5 class="card-title">Cuppon</h5>
+              <p class="card-text small">Landing page enfocada principalmente en front-end. Trata de una organización que ofrece cupones y para diversas actividades (turísticas, gastronómicas y de salud)</p>
+              <div class="row pb-4">
+                  <a href="https://zeit4n.github.io/cuppon/">
+                    <p class="fw-bold">Ver el proyecto</p>
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-4 card m-4 border-dark" style="width: 20rem;">
+        <img src="assets/img/onlyflans.png" class="card-img-top h-50 pt-3">
+        <div class="card-body">
+            <h5 class="card-title">Onlyflans</h5>
+            <p class="card-text small">Hecho con el framework django, Onlyflans es una aplicación web con redireccionamiento de url y manejo de usuarios con formularios. Este sitio no se encuentra subido en un servicio de hosting todavía, pero pronto lo estará. </p>
+        </div>
+      </div>
+    </div>
+</section>
+<footer class="bg-dark py-3" id="contacto">
+  <div class="container-fluid text-white">
+      <div class="row py-5">
+          <div class="col-6">
+              <h3>Redes sociales</h3>
+          </div>
+          <div class="col-6 text-sm-end text-start text-white">
+              <a class="text-white" data-toggle="tooltip" data-placement="right" title="Git-Hub" href="https://github.com/Zeit4n" target="_blank">
+                  <i class="fa-brands fa-square-github fa-2x pe-sm-2"></i></a>
+              <a class="text-white" data-toggle="tooltip" data-placement="right" title="Linkedin" href="https://www.linkedin.com/in/sebastiantancara121529b6/" target="_blank">
+                  <i class="fa-brands fa-linkedin fa-2x pe-sm-2"></i></a>
+              <a class="text-white" data-toggle="tooltip" data-placement="right" title="Twitter"href="https://www.instagram.com/_zeitan/" target="_blank">
+                  <i class="fa-brands fa-instagram fa-2x pe-sm-2"></i></a>
+              <a class="text-white" data-toggle="tooltip" data-placement="right" title="Facebook" href="https://www.facebook.com/sebastian.tancara" target="_blank">
+                  <i class="fa-brands fa-square-facebook fa-2x"></i></a>
+          </div>
+      </div>
+  </div>
+  </div>
+</footer>
