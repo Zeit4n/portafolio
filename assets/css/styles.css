@@ -8,3 +8,7 @@
     height: 450px;
     object-fit: cover;
 }
+
+.navbar-nav .nav-link:hover {
+    color: lightseagreen !important;
+}
